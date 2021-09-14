@@ -1,6 +1,7 @@
 import cv2 as cv
 
 # Loading the Cascade as well as reading in the input image 
+# Hello
 face_cascade = cv.CascadeClassifier('haarcascade_frontalcatface.xml')
 img = cv.imread('face-images/Mona_Lisa.jpg')
 
